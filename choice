@@ -1,0 +1,31 @@
+def add(p,Q):
+    return p+Q
+
+def subtract(p,Q):
+    return p-Q
+
+def multiplay(p,Q):
+    return p*Q
+
+def divide(p,Q):
+    return p / Q
+
+print("pleses select opration")
+print("a. add")
+print("b. subtract")
+print("c. divition")
+print("d.mul")
+c = ("enter your choice a/b/c/d")
+num1 =int (input('enter 1 num '))
+num2 =int (input('enter 2 num '))
+if c == 'a' :
+    print(num1,"+",num2 "="  ,add(num1,num2))
+
+elif c == 'b' :
+    print(num1,"-",num2 "="  ,subtract(num1,num2))
+
+elif c == 'c' :
+    print(num1,"+",num2 "="  ,multiplay(num1,num2)) 
+    
+else c == 'd' :
+    print(num1,"/",num2 "="  ,divide(num1,num2))
